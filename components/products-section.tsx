@@ -36,7 +36,7 @@ export function ProductsSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {products.map((product, index) => {
             // Mensagem personalizada para cada produto
             const message = `Olá, estou interessado em saber mais sobre os produtos da TopGym, especialmente sobre ${product.name}.`
